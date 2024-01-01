@@ -1,11 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #141414;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -66,3 +66,76 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+h1 {
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 58px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 44px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 36px;
+  letter-spacing: 1.15px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 38px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 33px;
+  letter-spacing: 1.7px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+.text-overline {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 19px;
+  letter-spacing: 10px;
+  font-weight: normal;
+}
+
+.text-subtitle {
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: light;
+}
+
+.text-body {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
