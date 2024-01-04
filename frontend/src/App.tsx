@@ -1,6 +1,6 @@
 import './App.css'
+import { HomeSection1 } from './components/home/homeSection1/HomeSection1'
 import { Navbar } from './components/navbar/Navbar'
-import { HomeSection } from './components/homeSection/HomeSection'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='w-full'>
         <Navbar />
-        <HomeSection />
+        <HomeSection1 />
       </div>
     </>
   )
